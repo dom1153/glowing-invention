@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro'
 import { buttonVariants } from '@/components/ui/button'
+import P5Instance from '@/components/mine/p5'
 ---
 
 <BaseLayout
@@ -38,5 +39,6 @@ import { buttonVariants } from '@/components/ui/button'
         GitHub
       </a>
     </div>
+    <P5Instance client:only />
   </section>
 </BaseLayout>
